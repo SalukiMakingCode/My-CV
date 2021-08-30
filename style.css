@@ -1,0 +1,125 @@
+html body h1 h2 h3 h4 {
+    margin:0;
+    padding:0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 10% 40% 18% 2% 20% 10%;
+    grid-template-rows : 20% 15% 65%;
+}
+
+h1 {
+    grid-column: 2 / 4 ;
+    grid-row: 1;
+    color:#2d5974;
+}
+
+header h2 {
+    padding-left:20px;
+}
+
+.job {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    color:#3390a6;
+}
+.intro {
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+.photo {
+    grid-column: 5;
+    grid-row-start : 1 ;
+    grid-row-end : 4 ;
+    justify-self: stretch;
+    align-self: stretch;
+    min-width:170px;
+    max-width:170px;
+    min-height:230px;
+    max-height:230px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10% 40% 2px 4% 35% 10%;
+    grid-template-rows : 0.6fr 1fr 1fr 1fr 1fr;
+
+}
+
+main h2 {
+    color:#3390a6;
+    margin:5px;
+
+}
+
+main h3 {
+    font-weight:bold;
+    padding-left: 20px;
+    margin:0;
+    margin-top:15px;
+}
+
+main h4 {
+    margin:0;
+    padding-left: 20px;
+    color:#3390a6;
+}
+
+main p {
+    padding-left: 30px;
+    margin:0;
+}
+
+.contact h2 {
+    color:white;
+}
+
+.contact {
+    grid-column : 2;
+    grid-row: 1;
+    background-color: #2d5974;
+    color:white;
+    padding-left:20px;
+}
+
+.competence {
+    grid-column : 2;
+    grid-row: 2;
+    padding-left:20px;
+}
+
+.formation {
+    grid-column : 2;
+    grid-row: 3;
+    padding-left:20px;
+}
+
+.langues {
+    grid-column : 2;
+    grid-row: 4;
+    padding-left:20px;
+}
+.drapeau {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    padding-top:20px;
+}
+
+
+
+.ligne {
+    grid-column:3;
+    grid-row: 1/5;
+    background-color: #2d5974;
+}
+
+.experience {
+    grid-column: 5;
+    grid-row: 1/5;
+}
+
+.experience ul {
+    padding-left:15px;
+}
